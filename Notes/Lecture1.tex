@@ -1,0 +1,383 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Principles of Macroeconomics
+% Professor: H. Yoon
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article} 
+\usepackage{alphalph}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+\usepackage{titling}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage[super]{nth}
+\usepackage{everysel}
+\usepackage{ragged2e}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{cancel}
+\usepackage{siunitx}
+\usepackage{xcolor}
+\usepackage{physics}
+\usepackage{tikz}
+\usepackage{mathdots}
+\usepackage{yhmath}
+\usepackage{color}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{gensymb}
+\usepackage{tabularx}
+\usepackage{extarrows}
+\usepackage{booktabs}
+\usetikzlibrary{fadings}
+\usetikzlibrary{patterns}
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{shapes}
+
+
+\geometry{top=1.0in,bottom=1.0in,left=1.0in,right=1.0in}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+
+}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+filecolor=magenta,      
+urlcolor=blue,
+citecolor=blue,
+}
+
+\urlstyle{same}
+
+
+\title{Lecture 1 Notes}
+\date{June 15, 2021}
+\author{Michael Brodskiy\\ \small Instructor: Prof. Yoon}
+
+% Mathematical Operations:
+
+% Sum: $$\sum_{n=a}^{b} f(x) $$
+% Integral: $$\int_{lower}^{upper} f(x) dx$$
+% Limit: $$\lim_{x\to\infty} f(x)$$
+
+\begin{document}
+
+    \maketitle
+
+    \begin{enumerate}
+
+      \item Economics — The study of how people manage scarce resources to achieve their goals
+
+      \item Economic Groups:
+
+        \begin{enumerate}
+
+          \item Individuals, Households, and Consumers — Consume goods or services and provide factors of production
+
+            \begin{enumerate}
+
+              \item Goals: Maximize utility from consuming goods or services and providing factors of production
+
+              \item Resources: Income to purchase goods or services, time
+
+            \end{enumerate}
+
+          \item Firms, Entrepreneurs, Businesses, Companies, and Producers — Produce goods or services and use factors of production
+            
+            \begin{enumerate}
+
+              \item Goals: Maximize profit from producing and selling goods or services and using factors of production
+
+              \item Resources: Labor, Natural Resources, Capital, and Entrepreneurship
+
+            \end{enumerate}
+
+          \item Governments — Spend their budget to implement their policies or social welfare programs
+
+            \begin{enumerate}
+
+              \item Goals: Maximize the well-being of consumers and producers
+
+              \item Resources: Budget
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Three Economic Assumptions:
+
+        \begin{enumerate}
+
+          \item People are rational
+
+            \begin{enumerate}
+
+              \item People make decisions to achieve their highest goals given scarce resources and available information
+
+              \item Economists assume that people are rational on average even though not everyone behaves rationally
+
+              \item Ex. Individuals consume goods or services to maximize their utility given income and prices of goods or services
+
+            \end{enumerate}
+
+          \item People respond to incentives
+
+            \begin{enumerate}
+
+              \item An incentive is something that causes a change in the trade-offs that people face
+
+              \item Incentive involves total benefit and total cost
+
+                \begin{enumerate}
+
+                  \item Total Benefit — Total amount of gain by doing the activity
+
+                  \item Total Cost — Total amount paid or forfeited to do the activity
+
+                \end{enumerate}
+
+              \item Positive incentives makes people do more of an activity, while negative incentives (disincentives) decrease likelihood of performing an activity
+
+            \end{enumerate}
+
+          \item People make marginal decisions
+
+            \begin{enumerate}
+
+              \item Rational people make decisions by comparing marginal benefit to marginal cost
+
+                \begin{enumerate}
+
+                  \item Marginal Benefit is the benefit of performing an additional unit of an activity: $B_M=\frac{TB_1-TB_0}{Q_1-Q_0}$, where $TB_1$ is the new total benefit, $TB_0$ is the old total benefit, $Q_1$ is the new amount of activity, and $Q_0$ is the old amount of activity
+
+                  \item Marginal Cost is the cost of performing an additional unit of an activity: $C_M=\frac{TC_1-TC_0}{Q_1-Q_0}$, where $TC_1$ is the new total cost, $TC_0$ is the old total cost, $Q_1$ is the new amount of activity, and $Q_0$ is the old amount of activity
+
+                \end{enumerate}
+
+              \item Decision criteria depends on how much of an activity people take to maximize net benefit ($TB-TC$)
+
+                \begin{enumerate}
+
+                  \item If $B_M>C_M$, more of an activity should be done to increase net benefit
+
+                  \item If $B_M<C_M$, less of an activity should be done to increase net benefit
+
+                  \item If $B_M=C_M$, the level of activity should be maintained to keep benefit in equilibrium
+
+                \end{enumerate}
+
+              \item This process is known as the \textbf{marginal decision-making process}
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item \textbf{Scarcity}:
+
+        \begin{enumerate}
+
+          \item Peoples' wants are unlimited or infinite, but resources are limited, scarce, or finite
+
+          \item Peoples' wants are constrained by scarce resources
+
+          \item People need to make a choice among alternatives
+
+          \item Ex. Individuals need to make a choice among different products given income
+
+        \end{enumerate}
+
+      \item \textbf{Trade-off}:
+
+        \begin{enumerate}
+
+          \item A trade-off occurs when people forfeit one activity to do another activity or when people give up more of one activity to get more of another activity
+
+          \item Ex. The U.S. Government reduces its spending on education and social welfare to raise its defense spending
+
+        \end{enumerate}
+
+      \item \textbf{Opportunity Cost}:
+
+        \begin{enumerate}
+
+          \item The opportunity cost is the value of the second-best option given up to choose the best option
+
+          \item It is the quantitative measure of trade-off relationships among alternative options
+
+          \item Economists often express opportunity cost as a dollar value to compare alternatives
+
+          \item Not all opportunity costs are measured in dollar or monetary values
+
+          \item Ex. Toyota can produce 2 Corollas or 1 Camry with the same resources. What is the opportunity cost of 1 Camry? 2 Corollas
+
+        \end{enumerate}
+
+      \item \textbf{Efficiency}:
+
+        \begin{enumerate}
+
+          \item Efficiency occurs when resources are used to create the greatest economic value within a society
+
+          \item Productive efficiency occurs when goods or services are produced at the minimum cost or when goods or services are produced to maximize profit
+
+          \item Allocative efficiency occurs when goods or services produced satisfy consumers' preferences most or when consumers obtain goods or services to maximize their efficiency
+
+        \end{enumerate}
+
+      \item \textbf{Economic Growth}:
+
+        \begin{enumerate}
+
+          \item Economic growth is an increase in the production of goods or services
+
+          \item Three ways to obtain economic growth exist:
+
+            \begin{enumerate}
+
+              \item Increase resources (labor, capital, natural resources, and entrepreneurship)
+
+              \item Technological advancement (progress) or positive technological change or innovation
+
+              \item Specialization and trade — Gains from trade with the right terms of trade
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item \textbf{Economic Model}
+
+        \begin{enumerate}
+
+          \item A simplified representation or version of a real economic phenomenon (situation)
+
+          \item Focuses on essentials of the complex reality by simplifying through assumptions, getting useful and approximate answers to economic problems, and obtaining predictions for the future
+
+          \item May be expressed in three ways: words, graphs, and equations
+
+          \item Ex. Circular flow model (words and diagrams) and Production possibilites frontier (in words, graphs, and equations)
+
+        \end{enumerate}
+
+      \item Characteristics of a good model
+
+        \begin{enumerate}
+
+          \item Makes clear and reasonable assumptions (based on economic theory and data)
+
+          \item Predicts cause and effect relationship among economic variables (focuses on causal relationship between two economic variables, assuming all else to be constant)
+
+          \item Accurately describes the real world (data)
+
+            \begin{enumerate}
+
+              \item Does not need to include all complex details from reality
+
+              \item Needs to approximately replicate reality
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Developing a good economic model
+
+        \begin{enumerate}
+
+          \item Make reasonable assumptions based on theory
+
+          \item Formulate a testable hypothesis\footnote{A statement about causal relationships between two economic variables that may be true or not}
+
+          \item Test a hypothesis through data collection and statistical models: null hypothesis (the hypothesis one wants to accept) and alternative hypothesis (hypothesis one wants to reject)
+
+          \item Revise the model by changing assumptions, data, or both if the null hypothesis is rejected
+
+          \item Use the revised model to explain or predict economic events
+
+        \end{enumerate}
+
+      \item Developing a demand model
+
+        \begin{enumerate}
+
+          \item Assume that everything else is constant, other than the price of a specific product
+
+          \item Theoretical model: $P=a+bQ_d$, where $P$ is price, and $Q_d$ is the quantity determined
+
+          \item Null hypothesis ($H_0$): There is a negative relationship between price and quantity determined ($b<0$)
+
+          \item Alternative hypothesis ($H_A$): There is either no relationship or a positive relationship between the price and quantity determined ($b\geq0$)
+
+          \item Statistical model: $P=a+bQ_d+\varepsilon$, where $\varepsilon$ is the error term
+
+          \item Collect data on price and quantity demanded to estimate $b$
+
+          \item If data rejects the null hypothesis, revise the model by changing data or assumptions. Collect data once again on price and quantity demanded to estimate $b$
+
+          \item Ex. $P=10-2Q_d$ — If the quantity demanded increases by 1, the price will decline by $\$ 2$, or, if the price rises by $\$ 1$, the quantity demanded will decline by $.5$
+
+        \end{enumerate}
+
+      \item Economic Model Examples
+
+        \begin{enumerate}
+
+          \item Basic Circular Flow Model
+
+            \begin{enumerate}
+
+              \item Assumptions
+
+                \begin{enumerate}
+
+                  \item Two economic agents: households and firms
+
+                  \item Two markets: product market and factor market
+
+                \end{enumerate}
+
+              \item One of the most basic models that shows the flow of money, goods and services, and inputs
+
+              \item In the product market, households spend money to buy goods and services that firms obtain revenue by making and selling
+
+              \item In the factor market, households earn income (wage, rent, and profit) by providing inputs that firms pay for (cost) to produce goods and services
+
+            \end{enumerate}
+
+            \begin{center}
+              \begin{figure}[h]
+                \centering
+                \include{Figures/BCFM}
+                \caption{Example Basic Circular Flow Model}
+                \label{fig:1}
+              \end{figure}
+            \end{center}
+
+            \begin{enumerate}
+
+              \item Missing Components
+
+                \begin{enumerate}
+
+                  \item Missing economic agents: Governments
+
+                  \item Missing markets: financial and international market
+
+                  \item A modified circular flow model includes these components
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+    \end{enumerate}
+
+\end{document}
+
