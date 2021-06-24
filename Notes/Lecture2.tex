@@ -1,0 +1,813 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Principles of Macroeconomics
+% Professor: H. Yoon
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article} 
+\usepackage{alphalph}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+\usepackage{titling}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage[super]{nth}
+\usepackage{everysel}
+\usepackage{ragged2e}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{cancel}
+\usepackage{siunitx}
+\usepackage{xcolor}
+\usepackage{physics}
+\usepackage{tikz}
+\usepackage{mathdots}
+\usepackage{yhmath}
+\usepackage{color}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{gensymb}
+\usepackage{tabularx}
+\usepackage{extarrows}
+\usepackage{booktabs}
+\usetikzlibrary{fadings}
+\usetikzlibrary{patterns}
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{shapes}
+
+
+\geometry{top=1.0in,bottom=1.0in,left=1.0in,right=1.0in}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+
+}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+filecolor=magenta,      
+urlcolor=blue,
+citecolor=blue,
+}
+
+\urlstyle{same}
+
+
+\title{Lecture 2 Notes}
+\date{June 23, 2021}
+\author{Michael Brodskiy\\ \small Instructor: Prof. Yoon}
+
+% Mathematical Operations:
+
+% Sum: $$\sum_{n=a}^{b} f(x) $$
+% Integral: $$\int_{lower}^{upper} f(x) dx$$
+% Limit: $$\lim_{x\to\infty} f(x)$$
+
+\begin{document}
+
+    \maketitle
+
+    \begin{enumerate}
+
+      \item Gross Domestic Product
+
+        \begin{enumerate}
+
+          \item There are three major macroeconomic variables that measure the health of a national economy: total production, price level, and unemployment
+
+          \item The most commonly used measure of the total production or total income for the whole nation is a gross domestic product (GDP)
+
+          \item GDP is the sum of the market values of all final goods and services produced within a country during a specific period of time
+
+          \item There are four main parts of GDP:
+
+            \begin{enumerate}
+
+              \item Market Value
+
+                \begin{enumerate}
+
+                  \item In summing the quantities of goods and services, market value is found by taking the sum of market price times market quantity of all products
+
+                  \item Mathematically, this is: $\sum_i P_iQ_i$, where $P_i$ and $Q_i$ are the price and quantity of a product $i$, respectively
+
+                \end{enumerate}
+
+              \item Final Goods and Services
+
+                \begin{enumerate}
+
+                  \item Final products cannot be used to produce other products and end up with consumers (Ex. Cars and hamburgers)
+
+                  \item Intermediate products can be used to produce other products (Ex. bread and vegetables)
+
+                  \item The values of intermediate products are not included in GDP (because those values are included in finished products)
+
+                \end{enumerate}
+
+              \item Produced Within a Country
+
+                \begin{enumerate}
+
+                  \item GDP includes products produced within a country even if they are produced by foreign firms and sold in foreign countries (Ex. Toyota Camry made in the US)
+
+                  \item GDP excludes products produced outside a country even if they are produced by domestic firms and sold in the US (Ex. BMW made in Germany and sold in the US)
+
+                  \item Gross National Product (GNP) is the sum of the market values of all final goods and services produced by domestic firms during a specific period of time
+
+                  \item GNP includes products produced by domestic firms even if they are produced outside of a country (EX. Ford Explorer made in Korea or the US)
+
+                  \item GNP excludes products produced by foreign firms even if they are produced within a country (Ex. Toyota Camry made in the US or Japan)
+
+                \end{enumerate}
+
+              \item Specific Period of Time
+
+                \begin{enumerate}
+
+                  \item GDP is normally calculated quarterly but is annualized by taking seasonal patterns into account from the quarterly GDP
+
+                  \item This annualized GDP is called a seasonally adjusted annual GDP
+
+                  \item GDP includes inventories, which are products that are produced but not sold in a given year
+
+                  \item Increase in inventory increases GDP, and vice versa (Ex. Ford Mercury made in 2019 but sold in 2020 would be included in the 2019 GDP)
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Measuring GDP
+
+        \begin{enumerate}
+
+          \item The US Bureau of Economic Analysis (BEA) in the Department of Commerce measures GDP
+
+          \item The BEA reports nominal GDP, real GDP, GDP deflator, growth rate, and other measures of income in the National Income and Product Accounts (NIPA) quarterly and annually
+
+          \item GDP is measured in three approaches: expenditure, income, and value-added
+
+          \item Finding GDP from a Modified Circular Flow Model:
+
+            \begin{enumerate}
+
+              \item A modified circular flow model is built by adding the government, financial market, and international market to a basic circular flow model
+
+              \item The government earns tax revenue from firms and households and uses it to purchase goods or services from firms or provide transfer payments such as unemployment insurance and social security to households
+
+              \item In the international market, foreign buyers purchase domestic goods or services, and domestic buyers purchase foreign goods or services
+
+              \item A modified circular flow model shows that the expenditure, income, and the value-added are equal to one another
+
+              \item The sum of the market values of all final goods and services is calculated by the expenditure on goods and services by households, firms, government, and foreign consumers
+
+              \item Total income consists of wage for labor, rent for capital and natural resources, profit for entrepreneurs, interest for savers, and tax for government
+
+              \item Value-added is the sum of the value of final products, minus the value of intermediate products
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+                \begin{figure}[h!]
+                  \centering
+                  \include{Figures/MCFM}
+                  \caption{An Example Modified Circular Flow Model}
+                  \label{fig:1}
+                \end{figure}
+
+      \item Expenditure Approach
+
+        \begin{enumerate}
+
+          \item GDP can be measured by the sum of the expenditure on goods and services by households, firms, government, and foreign buyers
+
+          \item Consumption is a household's expenditure on goods or services
+
+            \newpage
+
+          \item Durable goods last more than three years (Ex. Cars), while non-durable goods last less than three years (Ex. Food)
+
+          \item Investment is a firm's expenditure on goods and services that consist of non-residential fixed investment, residential fixed investment, and change in inventories
+
+            \begin{enumerate}
+
+              \item Non-residential fixed investment is spending on buildings, machineries, tools, warehouses, and intellectual property
+
+              \item Residential fixed investment is a household's spending on newly built houses, which is the only spending by households among investments
+
+              \item Change in inventories is change in goods and services that are made in that year, but not sold the same year
+
+                \begin{enumerate}
+
+                  \item Increase in inventories occurs when new goods and services are produced but not sold the same year
+
+                  \item Decrease in inventories occurs when old goods and services are sold in the same year
+
+                  \item Planned investment is higher than actual investment with increase in inventories, and lower than actual investment with decrease in inventories, with the exception of investment in financial assets, such as stocks, bonds, and mutual funds, as they do not count as part of investments (because firms are not directly buying goods or services in return)
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+          \item Government purchases are a government's expenditure
+
+            \begin{enumerate}
+
+              \item State and local government purchases include spending on education, health and hospitals, police and corrections, and highways and roads
+
+              \item Federal government purchases include defense, transportation, education, housing, law enforcement, and interest on payments of government debt
+
+              \item Exception: GDP does not include transfer payments (social security, unemployment insurance, and other welfare payments) because the government does not receive goods in return
+
+            \end{enumerate}
+
+          \item Net export is the export minus import (or foreign buyers' expenditure on domestic goods and services minus domestic buyers' expenditure on foreign goods and services)
+
+            \begin{enumerate}
+
+              \item Export must be included in GDP because it includes goods and services produced within a country
+
+              \item Import must be excluded from GDP because it includes goods and services produced outside of a country
+
+              \item Trade surplus occurs when there is a positive net export, or when export is greater than import. On the other hand, trade deficit occurs when there is a negative net export, or when import is greater than export. Trade balance occurs when the export equals the input
+
+            \end{enumerate}
+
+          \item The GDP Equation
+
+            \begin{enumerate}
+
+              \item GDP ($Y$) = Consumption ($C$) + Investment ($I$) + Government purchases ($G$) + Net Export ($NX$)
+
+              \item This shows that the value of total production is equal to total expenditure by households, firms, governments, and foreign buyers
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Income Approach
+
+        \begin{enumerate}
+
+          \item GDP can also be measured by the sum of income earned by workers, land and property owners, managers, savers (financial asset owners), and government
+
+          \item Total income, which is called Gross Domestic Income (GDI), consists of wages for workers, rents for land and property owners, profits for firm owners, interests for financial asset owners, taxes for the government, and statistical discrepancy ($GDP-GDI$)
+
+          \item $GDI$ = Total income = Wage + Rent + Profit + Interest + Tax + Statistical Discrepancy
+
+          \item Depreciation (consumption of capital) is the decline in value of capital in the NIPA account
+
+          \item Statistical discrepancy refers to the difference between GDP and GDI due to measurement errors
+
+        \end{enumerate}
+
+      \item Value-Added Approach
+
+        \begin{enumerate}
+
+          \item GDP can also be measured by the sum of value-added by all firms that produce final goods and services
+
+          \item The value-added is the market value firms add to goods and services and is calculated by subtracting the prices of intermediate goods and services from prices of final goods and services
+
+          \item In the calculation of GDP, we use the sum of value-added to avoid double counting (just like we use the sum of the market values of all final goods and services, not including intermediate goods and services)
+
+        \end{enumerate}
+
+      \item Different GDP Measures
+
+        \begin{enumerate}
+
+          \item Nominal GDP
+
+            \begin{enumerate}
+
+              \item The sum of the market values of all final goods and services evaluated at the current year prices
+
+              \item Mathematically calculated as $\sum_i P_{it}Q_{it}$, where $P_{it}$ is the price of a product $i$ at year $t$ and $Q_{it}$ is the quantity of a product $i$ at year $t$
+
+              \item Nominal GDP reflects both the change in price level and change in quantity produced over time
+
+              \item The problem of nominal GDP is that it does not take into account the change in price level over time
+
+            \end{enumerate}
+
+          \item Real GDP
+
+            \begin{enumerate}
+
+              \item The sum of the market values of all final goods and services evaluated at the base year prices
+
+              \item Mathematically calculated as $\sum_i P_{ib}Q_{it}$, where $P_{ib}$ is the price of a product $i$ at the base year and $Q_{it}$ is the quantity produced at year $t$
+
+              \item Real GDP reflects only the change in quantity over time but controls the change in price level
+
+              \item Real GDP adjusts Nominal GDP for the price change
+
+              \item Inflation is an increase in price level over time, while deflation is a decrease in price level over time
+
+            \end{enumerate}
+
+          \item \begin{tabular}{| c | c | c |} \hline & Inflation & Deflation\\ \hline Before base year & RGDP $>$ NGDP & RGDP $<$ NGDP\\ \hline Base year & RGDP = NGDP & RGDP = NGDP\\ \hline After base year & RGDP $<$ NGDP & RGDP $>$ NGDP\\\hline  \end{tabular}
+
+        \end{enumerate}
+
+      \item Limitations of GDP
+
+        \begin{enumerate}
+
+          \item Not a perfect measure of well-being
+
+            \begin{enumerate}
+
+              \item GDP does not perfectly measure the well-being (quality of life) of the society
+
+              \item Economists develop a life satisfaction index that incorporates literacy rates, life expectancy, and child mortality to better measure the quality of life
+
+            \end{enumerate}
+
+          \item Exclusion of some economic activities
+
+            \begin{enumerate}
+
+              \item Goods and services that are not traded in a market include leisure and home production
+
+              \item Goods and services that are not reported to the government include those in the black market and grey market
+
+                \begin{enumerate}
+
+                  \item Black Market — Goods and services illegally produced to avoid taxes and/or government regulations (Ex. Restricted weapons, human organs, etc.)
+
+                  \item Grey Market — Goods and services that are legally produced, but not reported to the government (Ex. Mowing someone's lawn, Babysitting, etc.)
+
+                \end{enumerate}
+
+              \item Leisure, which is a non-labor activity, is supposed to be included in GDP because it increases GDP by improving productivity, but lowers GDP by reducing work hours
+
+              \item Home production, or goods and services that are produced and consumed within a household, are not included in GDP
+
+            \end{enumerate}
+
+          \item Negative externalities
+
+            \begin{enumerate}
+
+              \item Negative externality occurs when a third party, which is not involved in market transactions (so neither a buyer nor seller), is negatively affected by economic activities
+
+              \item Negative externality such as pollution generates external costs such as bad health effects
+
+              \item It should be included in GDP, because it lowers it
+
+              \item To take into account external cost, Green GDP is calculated as $GDP - $ external cost
+
+            \end{enumerate}
+
+          \item No consideration of equity
+
+            \begin{enumerate}
+
+              \item GDP considers the size of goods and services (efficiency), but does not care about the allocation of the goods and services (equity)
+
+              \item Economic growth, which is an increase in the production of goods and services, may generate income inequality or inequity in a country
+
+            \end{enumerate}
+
+          \item Crime and other social problems
+
+            \begin{enumerate}
+
+              \item Higher GDP may cause higher crime rates and more social problems, such as high divorce rate, drug addiction, or racial issues, but these are not taken into account in GDP
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Economic Growth vs. Business Cycle
+
+        \begin{enumerate}
+
+          \item Economic growth is a long run increase in the production of goods and services in the economy or a long run increase in the average standard of living over time
+
+          \item Business cycle is a short run fluctuation of the production of goods and services in the economy or a short run fluctuation of the average standard of living, as announced by the National Bureau of Economic Research (NBER)
+
+          \item Business cycles range from 6 to 10 years, while economic growth usually occurs after greater than 10 years (usually 50-100 years)
+
+        \end{enumerate}
+
+      \item Measure of Average Standard of Living
+
+        \begin{enumerate}
+
+          \item Nominal GDP shows the change in price level and the change in quantity produced
+
+          \item Real GDP adjusts nominal GDP for change in price level by fixing the price level at a base year
+
+          \item Real GDP per capita adjusts real GDP for the difference in population among countries
+
+          \item RGDP Per Capita: $\frac{RGDP}{Population}$
+
+          \item RGDP per capita is used to compare economic growth across countries and over time because it adjusts for change in price level over time and difference in population across countries
+
+        \end{enumerate}
+
+      \item Measures of Economic Growth over time
+
+        \begin{enumerate}
+
+          \item There are two measures of economic growth over time: growth rate and time to double income
+
+          \item Growth Rate (g)
+
+            \begin{enumerate}
+
+              \item An annual growth rate is the percentage change in real GDP per capita from year to year
+
+              \item Measured as $g=\frac{Y_t-Y_{t-1}}{Y_{t-1}}\cdot100$, where $g$ is the annual growth rate, $Y_t$ is a real GDP per capita in year $t$, and $Y_{t-1}$ is a real GDP per capita in year $t-1$
+
+              \item An average annual growth rate is the average annual percentage change in real GDP per capita from year 0 to year $t$
+
+              \item Two ways to calculate average annual growth rate: accurate and approximate
+
+                \begin{enumerate}
+
+                  \item Annual average growth rate is measured using an accurate method as $g=100\left( e^{\frac{1}{t}\ln\left( \frac{Y_t}{Y_0} \right)}-1 \right)=100\left( \sqrt[t]{\frac{Y_t}{Y_0}}-1 \right)$, where $Y_t$ is the real GDP per capita in a final year, $Y_0$ is a real GDP per capita in an initial year, and $g$ is an average annual growth rate
+
+                  \item The above formula is derived from $Y_t=Y_0(1+g)^t$
+
+                  \item The approximate annual average growth rate can be found using $\frac{1}{t}\sum_{n=1}^t g_t$, where $g_t$ is an annual growth rate in percent
+
+                  \item The approximate method can only be used when you know the annual growth rate for each year
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+          \item Time to double income
+
+            \begin{enumerate}
+
+              \item Time to double income can be measured in two ways: accurate and approximate
+
+                \begin{enumerate}
+
+                  \item Time to double income ($T$) can be measured by using an accurate method: $\frac{\ln(2)}{\ln(1+g)}$, where $g$ is an average annual growth rate (as a decimal)
+
+                  \item The above formula is derived from $2Y_0=Y_0(1+g)^t$
+
+                  \item The time to double income can be approximated by using $T=\frac{70}{g}$, where $g$ is an average annual growth rate, in percent. This is called the rule of seventy
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Economic Growth Models
+
+        \begin{enumerate}
+
+          \item Economic growth models are developed to explain the sources of economic growth and policy implications
+
+          \item There are two major categories of economic growth models: Exogenous and Endogenous
+
+          \item Solow Model (Exogenous Growth Model)
+
+            \begin{enumerate}
+
+              \item Developed by Robert Solow in 1950, and modified later
+
+              \item Major sources of economic growth in the Solow model are accumulation of physical capital and technological advancement
+
+              \item Uses the aggregate production function: $y = f$(physical capital, human capital, natural resources), where $y$ is a real GDP per capita (labor productivity or average income) and f() is a technology
+
+              \item Labor productivity (real GDP per capita) is determined by physical capital, human capital, natural resources, and technology
+
+              \item Physical capital is itself a product but is also used as an input to produce other products (Ex. Tools, Equipment, etc.)
+
+              \item Investment in physical capital comes from saving
+
+              \item Human capital is the knowledge, skill, and ability of workers and managers, through education, training, and experience, which is different from labor in that labor is measured by hours of work
+
+              \item Knowledge generates a positive externality, which occurs when the market transactions positively affect a third party
+
+              \item Natural resources include renewables that can be reproduced, such as trees, electricity, and water, and non-renewables that can not be reproduced, such as coal, oil, gold, and natural gas
+
+              \item Technology is something that changes inputs to outputs and generates a positive externality
+
+            \end{enumerate}
+
+          \item Aggregate Production Function
+
+            \begin{enumerate}
+
+              \item Labor productivity increases at a decreasing rate, as the economy accumulates more physical capital
+
+              \item The marginal product of physical capital is the increase in production as a result of increase in physical capital by one more unit, which is the slope of the aggregate production function at each point
+
+              \item The marginal product of physical capital declines as the economy accumulates more physical capital
+
+              \item This is called diminishing marginal product (returns) to capital
+
+              \item Two implications of diminishing returns:
+
+                \begin{enumerate}
+                    
+                  \item Steady-state is a situation where the economy stops accumualting capital or where marginal return to capital = marginal cost to capital (depreciation)
+
+                  \item Catch-up effect (convergence)
+
+                    \begin{itemize}
+
+                      \item Poor countries have a higher return to capital than richer countries because they have a lower physical capital and real GDP per capita
+
+                      \item Poor countries try to accumulate more capital and have higher growth rates than rich countries
+
+                      \item Real GDP per capita across countries will eventually be equalized because poor countries will catch up with rich countries
+
+                    \end{itemize}
+
+                \end{enumerate}
+
+              \item Strong catch-up effect (convergence) in high income countries: strong negative relationship between initial real GDP per capita and average annual growth rate
+
+              \item Weak catch-up effect (convergence) in all countries whose data is available: weak negative relationship with outliers such as Colombia, Niger, and Congo
+
+            \end{enumerate}
+
+          \item Aggregate Production Function with Technological Advance
+
+            \begin{enumerate}
+
+              \item $y=Af$(physical capital, human capital, natural resources), where $A$ is the technological change
+
+              \item Without the technological change ($y_0$), the economy stops growing at the steady state $(B)$ due to diminishing returns
+
+              \item Technological advance will shift the aggregate production curve from $y_0$ to $y_1$ (curve looks like a steeper root curve)
+
+              \item The economy will delay the steady state from $B$ to $D$
+
+              \item This will lead to sustainable economic growth
+
+              \item In the Solow Model, technological advancement occurs exogenously outside the model through random scientific discoveries (thus it is called an exogenous model)
+
+              \item Policy implications of the Solow Model
+
+                \begin{enumerate}
+
+                  \item Poor countries need to accumulate physical capital and advance their technologies through foreign aids such as direct or portfolio investments
+
+                    \begin{itemize}
+
+                      \item Foreign Direct Investment — Rich countries directly build or purchase facilities in poor countries
+
+                      \item Foreign Portfolio Investment — Rich countries buy financial assets in poor countries
+
+                    \end{itemize}
+
+                \end{enumerate}
+
+              \item Limitations of the Solow Model
+
+                \begin{enumerate}
+
+                  \item There are still poor countries, even with foreign aides (Ex. Haiti, Zimbabwe, etc.)
+
+                  \item There are still countries with high growth rates, even without foreign aid (Ex. China, India, etc.)
+
+                  \item To explain sources of economic growth, other than physical capital accumulation and technological advancement in these countries, new economic growth model called endogenous growth models were developed
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+          \item Endogenous Growth Model (developed by Paul Romer)
+
+            \begin{enumerate}
+
+              \item In this model, technological advancement occurs endogenously inside the model through efficient institutions
+
+              \item Efficient institutions facilitate capital accumulation, technological advancement, and economic growth
+
+              \item Aggregate production function with institutions: $y=Af$(physical capital, human capital, natural resources, institutions)
+
+              \item Without efficient institutions, the economy stops growing at $B$ (steady state) with the aggregate production function of $y_0$
+
+              \item With efficient institutions, the aggregate production function will shift up to $y_1$, with a higher Y-intercept, and the economy stops growing at $D$ (steady state)
+
+              \item Efficient institutions not only help the economy to have higher capital accumulation, but also to develop better technology and have higher economic growth, even without foreign aid
+
+              \item This explains any countries with high growth rates, even without foreign aid, and any countries with low growth rates, even with foreign aid
+
+              \item There are seven major efficient institutions that facilitate capital accumulation, technological advancement, and economic growth:
+
+                \begin{enumerate}
+
+                  \item Private property rights
+
+                    \begin{itemize}
+
+                      \item Provides consumers with an incentive to pay for products and provide producers with an incentive to develop new technology and lower the cost (Ex. US has better property rights than China)
+
+                    \end{itemize}
+
+                  \item Political stability and rule of law
+
+                    \begin{itemize}
+
+                      \item Firms have more incentive to invest money in countries with polticial stability and countries that follow laws, rather than invest in poltically unstable countries (Ex. US and European countries are more stable than countries in Africa and Latin America)
+
+                    \end{itemize}
+
+                  \item Competitive market
+
+                    \begin{itemize}
+
+                      \item Has many buyers and sellers, sellers have no market power, there are no barriers to entry and exit, facilitates competition, and lowers cost of production, which results in maximum efficiency and economic growth
+
+                    \end{itemize}
+
+                  \item Free trade
+
+                    \begin{itemize}
+
+                      \item Specialization and free trade make countries have more products available for consumption with transfer of technology
+
+                    \end{itemize}
+
+                  \item Free flow of funds
+
+                    \begin{itemize}
+
+                      \item A foreign portfolio investment helps poor countries to develop only without barriers to flow of funds
+
+                    \end{itemize}
+
+                  \item Efficient taxes
+                    
+                    \begin{itemize}
+
+                      \item Taxes normally generate tax revenue to the government and deadweight loss to the society
+
+                      \item Efficient taxes are taxes that maximize tax revenue, but minimize deadweight loss
+
+                    \end{itemize}
+
+                  \item Stable price
+
+                    \begin{itemize}
+
+                      \item Firms have stronger incentive to invest their money in countries with stable price level due to predictable profits, rather than countries with significant change in price level
+
+                    \end{itemize}
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+          \item Policy Implications of the Endogenous Growth Model
+
+            \begin{enumerate}
+
+              \item More efficient institutions are supported
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Price Level
+
+        \begin{enumerate}
+
+          \item Both income and price level normally rise over time
+
+          \item If income and price level rise at the same rate, there is no change in purchasing power (ability to buy products) of consumers, because the real value of income does not change
+
+          \item If price level rises at a faster rate than income, the purchasing power of consumers will decline because the real value of income declines
+
+          \item If price level rises at a slower rate than income, the purchasing power of consumers will increase, because the real value of income increases
+
+          \item Price level may be different across places even with the same income
+
+        \end{enumerate}
+
+      \item Different measures of price level
+
+        \begin{enumerate}
+
+          \item The cost of living for a country is measured by the price level, which is a weighted average price of goods and services produced within a country
+
+          \item More weight is given to goods and services with a higher portion of expenditure, while less weight is given to goods and services with lower portion of expenditure
+
+          \item Three major measures of price level:
+
+            \begin{enumerate}
+
+              \item GDP deflator
+
+                \begin{enumerate}
+
+                  \item GDP deflator = $\frac{NGDP}{RGDP}\cdot100$
+
+                  \item It reflects only the change in price level because nominal GDP reflects both change in quantity and change in price level, while real GDP reflects only the change in quantity
+
+                  \item This is the broadest measure of price level for a country because it reflects a weighted price for goods and services spent by households, firms, government, and foreigners
+
+                  \item It is 100 at the base year, because $NGDP = RGDP$ at the base year
+
+                  \item \begin{tabular}{|c|c|c|} \hline & Inflation & Deflation\\ \hline Before base year & GDP Deflator $<$ 100 & GDP Deflator $>$ 100\\ \hline Base year & GDP Deflator = 100 & GDP Deflator = 100\\ \hline After base year & GDP Deflator $>$ 100 & GDP Deflator $<$ 100\\\hline  \end{tabular}
+
+                \end{enumerate}
+
+              \item Producer price index (PPI)
+
+                \begin{enumerate}
+
+                  \item A weighted average price of all the final goods and services produced in the economy and spent by firms, such as machinery, equipment, tools, intellectual property, adn so on
+
+                  \item Excludes the prices of goods and services spent by government and households
+
+                  \item A predictor of consumer price index
+
+                  \item CPI follows pattern changes in PPI
+
+                \end{enumerate}
+
+              \item Consumer price index (CPI)
+
+                \begin{enumerate}
+
+                  \item A weighted average of a market basket of consumer goods and services spent by typical urban consumers
+
+                  \item The most commonly used price level for tracking changes in the cost of living in the US because it reflects the prices experienced by consumers
+
+                  \item Typical urban households include all urban consumers, urban wage earners, and clerical workers (93\% of the US population)
+
+                  \item Ex. Professionals, Self-employed, etc.
+
+                  \item Exception: People living in rural areas, people in the armed forces, etc.
+
+                  \item The market basket is a group of expenditure items spent by typical urban households in a base year (current base year is 1982-84)
+
+                  \item It is fixed at the base year to capture only the change in price level over time
+
+                  \item Classified into more than 200 categories and arranged into 8 major groups, which include housing, transportation, food and beverages, medical care, education and communication, recreation, apparel, and other goods and services
+
+                  \item Government subsidies and sales and excise taxes are included in the market basket
+
+                  \item The market basket excludes investment items (stocks, bonds, real estate, and life insurance), houses, antiques, collectibles, gambling losses, fines, cash gifts, child support, alimony, interest costs, illegal products, transfer payments, and income tax
+
+                  \item CPI is measured in $CPI=\frac{Expenditure_t}{Expenditure_b}\cdot100$
+
+                  \item $Expenditure_t$ is the expenditure in a current year ($\sum_i P_{it}Q_{ib}$, where $P_{it}$ is the price of a product $i$ at year $t$, and $Q_{ib}$ is the quantity of product $i$ at a base year)
+
+                    \item $Expenditure_b$ is the expenditure in a base year ($\sum_i P_{ib}Q_{ib}$, where $P_{ib}$ is the price of a product $i$ in a base year)
+
+                    \item Market basket is fixed at a base year, but prices change over time
+
+                    \item At the base year, $CPI=100$ because $Expenditure_t=Expenditure_b$
+
+                  \item \begin{tabular}{|c|c|c|} \hline & Inflation & Deflation\\ \hline Before base year & CPI $<$ 100 & CPI $>$ 100\\ \hline Base year & CPI = 100 & CPI = 100\\ \hline After base year & CPI $>$ 100 & CPI $<$ 100\\\hline  \end{tabular}
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Change in Price Level
+
+        \begin{enumerate}
+
+          \item Inflation rate is a year-to-year percentage change in price level over time
+
+          \item Calculated as $\frac{P_t-P_{t-1}}{P_{t-1}}\cdot100$, where $P_t$ is the price level at year $t$ and $P_{t-1}$ is the price level at year $t-1$
+
+          \item Inflation occurs if the rate is positive, and deflation occurs if the rate is negative
+
+          \item There are two different inflation measures by using CPI: headline and core
+
+            \begin{enumerate}
+
+              \item Headline — A change in CPI for the entire market basket of the average urban consumer
+
+              \item Core — A change in CPI for the market basket, excluding food and energy
+
+            \end{enumerate}
+
+          \item Including them in the calculation of CPI may over or under estimate the real change in overall prices
+
+          \item Excluding them may miss a large part of income of consumers
+
+        \end{enumerate}
+
+    \end{enumerate}
+
+\end{document}
+
