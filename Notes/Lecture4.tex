@@ -1,0 +1,1586 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Principles of Macroeconomics
+% Professor: H. Yoon
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article} 
+\usepackage{alphalph}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+\usepackage{titling}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage[super]{nth}
+\usepackage{everysel}
+\usepackage{ragged2e}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{cancel}
+\usepackage{siunitx}
+\usepackage{xcolor}
+\usepackage{physics}
+\usepackage{tikz}
+\usepackage{mathdots}
+\usepackage{yhmath}
+\usepackage{color}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{gensymb}
+\usepackage{tabularx}
+\usepackage{extarrows}
+\usepackage{booktabs}
+\usetikzlibrary{fadings}
+\usetikzlibrary{patterns}
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{shapes}
+
+
+\geometry{top=1.0in,bottom=1.0in,left=1.0in,right=1.0in}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+
+}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+filecolor=magenta,      
+urlcolor=blue,
+citecolor=blue,
+}
+
+\urlstyle{same}
+
+
+\title{Lecture 4 Notes}
+\date{July 14, 2021}
+\author{Michael Brodskiy\\ \small Instructor: Prof. Yoon}
+
+% Mathematical Operations:
+
+% Sum: $$\sum_{n=a}^{b} f(x) $$
+% Integral: $$\int_{lower}^{upper} f(x) dx$$
+% Limit: $$\lim_{x\to\infty} f(x)$$
+
+\begin{document}
+
+    \maketitle
+
+    \begin{enumerate}
+
+      \item Automatic Stabilizers
+
+        \begin{enumerate}
+
+          \item Automatic stabilizers are fiscal policy tools that automatically mitigate the business cycle without specific actions from policy-makers
+
+          \item There are two types of taxes as automatic stabilizers: income and corporate tax
+
+          \item There are three types of government spending: government purchases, transfer payments, and interest payments (transfer payments are the only automatic stabilizers among these)
+
+          \item Income Tax
+
+            \begin{enumerate}
+
+              \item In the US, income tax laws require households to pay a given proportion of income for an income range (tax bracket) and automatically mitigates the effect of a business cycle
+
+              \item Expansion automatically causes more people to be in a higher income bracket and pay more income tax, which results in a decrease in consumption and aggregate demand
+
+              \item Recession automatically causes more people to be in a lower income bracket and pay less tax, which results in an increase in consumption and aggregate demand
+
+            \end{enumerate}
+
+          \item Corporate Tax
+
+            \begin{enumerate}
+
+              \item Corporate tax is a tax collected from companies, whose amount is based on the profit companies obtain from their business activities, normally during one business year
+
+              \item The federal corporate tax was 35\% from 1995$-$2017 and 21\% from 2018$-$2021 in the US
+
+              \item Expansion automatically causes firms to have higher profit, pay more corporate tax, invest less, and lower aggregate demand
+
+              \item Recession automatically causes firms to have lower profit, pay less corporate tax, invest more, and increase aggregate demand
+
+            \end{enumerate}
+
+          \item Transfer Payments
+
+            \begin{enumerate}
+
+              \item Payments by the government to households, which do not return goods or services. These payments are not included in GDP, but are part of government spending (ex. Social Security)
+
+              \item Expansion automatically causes fewer people to receive transfer payments and reduce government spending and aggregate demand, which slows the economy
+
+              \item Recession automatically causes more people to receive transfer payments and increase government spending and aggregate demand, which boosts the economy
+
+            \end{enumerate}
+
+          \item In summary, fiscal policy tools, such as income tax, corporate tax, and transfer payments automatically change to mitigate the effects of business cycles and become automatic stabilizers of the economy
+
+        \end{enumerate}
+
+      \item Fiscal Policy
+
+        \begin{enumerate}
+
+          \item A discretionary fiscal policy is an active policy by the federal government to mitigate the effects of business cycles by shifting the aggregate demand through change in taxes, government spending, or both so that the economy fully goes back to the potential output
+
+          \item Normally used when automatic stabilizers are not enough to mitigate the effects of a business cycle
+
+          \item Fiscal policy decides how to raise the tax revenue, how to spend it, and how much to spend
+
+          \item The business cycle determines the type of fiscal policy: expansionary and contractionary
+
+          \item Expansionary Fiscal Policy
+
+            \begin{enumerate}
+
+              \item A fiscal policy that intends to shift the aggregate demand to the right during a recession so that the economy can go back to the potential GDP
+
+              \item The federal government can shift the aggregate demand to the right by cutting taxes (income, corporate, or both), or raising government purchases (or both)
+
+              \item Increase in government purchases will directly shift the aggregate demand to the right and increase GDP and price level (inflation)
+
+              \item Cutting income tax will lead to increase in disposable income (income $-$ income tax) and consumption and shift the aggregate demand to the right
+
+              \item Cutting corporate tax will lead to an increase in non-residential fixed investment and shift the aggregate demand to the right
+
+              \item Whether to raise government spending or to cut taxes, or both, the government budget (tax revenues $-$ government spending) will decline, or the government deficit will increase
+
+            \end{enumerate}
+
+          \item Contractionary Fiscal Policy
+
+            \begin{enumerate}
+
+              \item A fiscal policy that intends to shift the aggregate demand to the left during an expansion so that the economy can go back to the potential GDP
+
+              \item The federal government can shift the aggregate demand to the left by raising taxes (income, corporate, or both), or reducing government purchases (or both)
+
+              \item Decrease in government purchases will directly shift the aggregate demand to the left and decrease GDP and price level (deflation)
+
+              \item Raising income tax will lead to decrease in disposable income and consumption, and shift aggregate demand to the left
+
+              \item Raising corporate tax will lead to decrease in non-residential fixed investment and shift the aggregate demand to the left
+
+              \item Whether to reduce government spending, raise taxes, or both, the government budget will increase, or the government deficit will decrease
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Multiplier Effect
+
+        \begin{enumerate}
+
+          \item A series of induced changes in consumption and GDP that results from an initial change in autonomous aggregate expenditure, assuming that the change in autonomous AE does not affect price level, interest rate, and income tax
+
+          \item Called the “multiplier effect” because induced change in GDP is larger than initial change in GDP
+
+          \item There are two multiplier effects of a fiscal policy: government purchase and tax multiplier effects
+
+          \item Government Purchase Multiplier Effect
+
+            \begin{enumerate}
+
+              \item Government purchase changes by $\Delta G$, which will change GDP ($Y$ or $AE$) by $\Delta G$
+
+              \item The consumption ($C$) will change by $MPC\cdot\Delta G$, which will change GDP ($Y$) by $MPC\cdot\Delta G$
+
+              \item The consumption and GDP ($Y$) will again change by $MPC^2\cdot\Delta G$. This process continues
+
+              \item Total increase in $Y$:
+
+                \begin{enumerate}
+
+                  \item $=\Delta G + MPC\cdot\Delta G + MPC^2\cdot\Delta G+\dots$
+
+                  \item $=\Delta G(1 + MPC + MPC^2)$
+
+                  \item Infinite geometric series: $1 + a + a^2 + \dots + \frac{1}{1-a}$
+
+                  \item = $\frac{\Delta G}{1-MPC}$
+
+                \end{enumerate}
+
+              \item Government Purchase Multiplier: $\frac{1}{1-MPC}$
+
+              \item Government purchase multiplier is between 1 and infinity because $MPC$ is between 0 and 1
+
+              \item If $MPC=0$, the government purchase multiplier is 1
+
+              \item If $MPC=1$, the government purchase multiplier is infinity
+
+              \item The higher the $MPC$ is, the higher the government purchase multiplier is
+
+              \item The multiplier effect causes the economy to be more sensitive to change in autonomous AE
+
+              \item Change in government purchases not only directly affects income, but also indirectly affects income through change in consumption
+
+            \end{enumerate}
+
+          \item Tax Multiplier Effect
+
+            \begin{enumerate}
+
+              \item Suppose that there is a change in income tax by $\Delta T$, which will change disposable income by $-\Delta T$
+
+              \item The consumption will change by $-MPC\cdot T$, which will change GDP by $-MPC\cdot\Delta T$
+
+              \item The consumption and GDP will change by $-MPC^2\cdot\Delta T$
+
+              \item Total Increase in $Y$:
+
+                \begin{enumerate}
+
+                  \item $=-MPC\cdot\Delta T-MPC^2\cdot\Delta T-\dots$
+
+                  \item $=-MPC\cdot\Delta T(1+MPC+MPC^2+\dots)$
+
+                  \item $=-MPC\cdot\Delta T\left( \frac{1}{1-MPC} \right)$
+
+                \end{enumerate}
+
+              \item The tax multiplier: $\frac{-MPC}{1-MPC}$
+
+              \item Tax multiplier is between negative infinity ($-\infinity$) and 0 because $MPC$ is between 0 and 1
+
+              \item If $MPC=0$, the tax multiplier is 0
+
+              \item If $MPC=1$, the tax multiplier is negative infinity
+
+              \item The higher $MPC$ is, the higher tax multiplier is (in absolute value)
+
+              \item Change in tax indirectly affects income through consumption
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Limitations of Fiscal Policy
+
+        \begin{enumerate}
+
+          \item A successful and timely fiscal policy that mitigates the effects of a business cycle by bringing the economy back to the potential output is called a counter-cyclical fiscal policy
+
+          \item There are three major issues that make a fiscal policy unsuccessful: lags, crowding out effect, and Ricardian equivalence
+
+
+          \item Lags of Fiscal Policy
+
+
+            \begin{enumerate}
+
+              \item A fiscal policy often becomes unsuccessful because it was too late to recover the economy back to the potential output due to one or more of the following lags:
+
+                \begin{enumerate}
+
+                  \item Information Lag
+
+                    \begin{itemize}
+
+                      \item The National Bureau of Economic Research (NBER) is a private, nonpartisan organization that facilitates a cutting-edge investigation and analysis of major economic issues
+
+                      \item Part of its job is to announce whether the economy is in a recession of expansion, based on macroeconomic data, such as unemployment, GDP, and inflation
+
+                      \item It takes time (at least 6$-$12 months) for NBER to collect and analyze macroeconomic data to figure out whether the economy is in recession or in an expansion
+
+                    \end{itemize}
+
+                  \item Formulation Lag
+                    
+                    \begin{itemize}
+
+                      \item It takes time for Congress to draft and propose a bill to implement a fiscal policy
+
+                      \item It takes time for the president to sign a bill into a law or veto it, in which case the whole process has to start again
+
+                    \end{itemize}
+
+                  \item Implementation Lag
+
+                    \begin{itemize}
+
+                      \item It takes time for a fiscal policy to take effect on the economy (AD, GDP, and Price Level)
+
+                      \item It takes time for the government purchases or transfer payments to be distributed to the general public, change their income, consumption, and GDP and price level
+
+                    \end{itemize}
+
+                  \item Due to these three lags, the economy may already correct itself, and fiscal policy makes the economy worse than it was without it
+
+                  \item An unsuccessful and untimely fiscal policy that worsens the effects of a business cycle due to lags is called a pro-cyclical fiscal policy
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+          \item Crowding Out Effect
+
+            \begin{enumerate}
+
+              \item The crowding out effect is the reduction in private borrowing caused by an increase in government (public) borrowing, the reduction in private expenditure due to an increase in government spending, or a tax cut through an increase in interest rate
+
+              \item Increase in government spending or tax cut will increase GDP
+
+              \item Higher GDP will cause higher money demand, which will result in an increase in interest rate
+
+              \item Higher investment rate will lower consumption and investment, and will shift AD to the left
+
+            \end{enumerate}
+
+          \item Ricardian Equivalence
+
+            \begin{enumerate}
+
+              \item If the government cuts taxes without reduction in its spending, or raises its spending without modifying taxes, people will not change their investment because they realize that the government will cut its spending or raise its taxes to cover the tax cut, or increase its spending
+
+              \item As a result, people instead will save more with tax cuts or increases in government spending, instead of spending more
+
+              \item This is called Ricardian equivalence, which lowers the multiplier effect
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Government Budget
+
+        \begin{enumerate}
+
+          \item Government budget consists of government revenue and government spending
+
+          \item Government revenue consists of tax revenue, social insurance, and so on
+
+          \item Government expenditure consists of government purchases, transfer payments, interest payments, and so on
+
+          \item Government purchases are expenditures on goods and services by the government, and are included in GDP
+
+          \item Three types of government budget:
+
+            \begin{enumerate}
+
+              \item Budget deficit occurs when government revenue is smaller than government spending
+
+              \item Budget surplus occurs when the government revenue is greater than government spending
+
+              \item Balanced budget occurs when the government revenue is equal to government spending
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Government (Public) Debt
+
+        \begin{enumerate}
+
+          \item Public debt is the total amount of money that the government owes at a point in time as a result of the cumulative sum of all deficits and surpluses 
+
+          \item The debt will increase with the budget deficit, but will decrease with the budget surplus, and will stay the same with the balanced budget
+
+          \item The total amount of US government debt was relatively constant until around 1980. Then, it began to rise (especially in 2008) due to large deficits related to the Great Recession (2007$-$2009)
+
+          \item Public debts come from the US Treasury securities, which consist of three types:
+
+            \begin{enumerate}
+
+              \item Treasury Bills — Loans with maturity of less than a year that the government promises to pay you a set amount of money on a fixed date
+
+              \item Treasury Notes — Loans with maturity between a year and 10 years that the government promises to pay a semi-annual interest payment at a set rate and an interest payment with a principal at a maturity and the most liquid and most widely traded bond
+
+              \item Treasury Bonds — Loans with a maturity of 30 years that the government promises to pay a semiannual interest payment at a higher set rate than T-notes
+
+            \end{enumerate}
+
+          \item Benefits of the Government Debt
+
+            \begin{enumerate}
+
+              \item Allow the government to be flexible when something unexpected happens
+
+              \item Pay for investments that will lead to economic growth and prosperity in the long run
+
+            \end{enumerate}
+
+          \item Costs of the Government Debt
+
+            \begin{enumerate}
+
+              \item Pay back interests on debts
+
+              \item Distort the credit market and slow economic growth by raising interest rate and lowering private borrowing, such as consumption and investment (crowding out)
+
+              \item Inherit more of a burden of debt to future generations
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Financial Market and System
+
+        \begin{enumerate}
+
+          \item A financial market is a market in which a group of buyers and sellers trade future claims on funds or products (financial assets) and is included in a modified circular flow model
+
+          \item A financial system consists of financial institutions that bring together savers, borrowers, investors, and insurers in a set of interconnected markets where people trade financial assets
+
+        \end{enumerate}
+
+      \item Major Financial Assets
+
+        \begin{enumerate}
+
+          \item There are three major types of financial assets: equity, debt, and derivatives
+
+          \item Equity
+
+            \begin{enumerate}
+
+              \item A financial asset that represents the partial ownership of a company, such as stock
+
+              \item A company issues stocks and sell them to stockholders (shareholders) to finance it
+
+              \item Shareholders take on the risk of lowing money if it fails, but receive a dividend as a percentage of profit if it succeeds as partial owners of the company
+
+              \item A stock turns an illiquid asset (ownership of a company) into a liquid asset (share that can be sold on the stock market)
+
+              \item Stock indexes include Dow Jones Industrial Average, Standard \& Poor's (S\&P) 500, and Nasdaq
+
+              \item Stockholders (shareholders) are entitled to vote on certain aspects of how the company is run and elect the board of directors
+
+              \item Stockholders also are entitled to receive a portion of the company's profits in the form of dividends, which is a payment annually or quarterly to all shareholders of a company
+
+            \end{enumerate}
+
+          \item Debt
+
+            \begin{enumerate}
+
+              \item There are two major types of debts: loan and bond
+
+              \item A loan is an agreement in which a lender gives money to a borrower in exchange for a promise to repay the amount loaned plus an interest rate
+
+              \item A loan is less risky and less rewarding than a stock because borrowers have the first legal claim on a company's assets before stockholders in the case of default, and the lender only receives the amount specified in the original loan agreements in the case of profits
+                
+              \item A bond (fixed-income security) is a promise by the bond issuer to pay a periodic interest (coupon payment) and to repay the principle (face value) with interest at a maturity
+
+              \item It is easy for bondholders to sell bonds because bonds are standardized and more liquid than loans
+
+              \item Just like loans, bonds are less risky and less rewarding than stocks
+
+              \item Securitization is a process that turns many loans into a single larger asset to reduce the risk to the lender of any individual borrower defaulting on the loan
+
+            \end{enumerate}
+
+          \item Derivatives
+
+            \begin{enumerate}
+
+              \item A derivative is an asset whose value is based on or derived from the value of another asset, such as a home loan, stock, bond, or oil
+
+              \item One example of derivatives is a futures contract, which is a contract by its buyer to agree to pay the seller a set amount today based on the expected future price of some asset to protect the sellers
+
+              \item If the actual price is higher than contract price, a buyer of future contract will gain
+
+              \item If the actual price is lower than contract price, a buyer of future contract will lose
+
+              \item In either case, a seller will receive the same price
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Major Players in the Financial Market (System)
+
+        \begin{enumerate}
+
+          \item Banks
+
+            \begin{enumerate}
+
+              \item There are two types of banks: commercial and investment
+
+              \item Commercial banks are intermediaries of savers and borrowers, and create liquidity by receiving deposits and loaning out some portion of deposits
+
+              \item Investment banks are banks that do not take deposits and make loans but provide liquidity to financial markets by acting as market makers
+
+              \item They help companies to issue stocks and bonds by guaranteeing to buy any that remain unsold, which is called underwriting
+
+              \item Glass-Steagall Act (1930s) banned banks fro taking on both roles, but was repealed in 1999
+
+              \item Bank runs happen when all depositors take out their deposits at the same time
+
+              \item Bank panic occurs when bank runs simultaneously occur in a lot of banks
+
+            \end{enumerate}
+
+          \item Savers and their Proxies
+
+            \begin{enumerate}
+
+              \item Most savers give their money to someone else to decide whom to lend it out to, instead of financial markets directly, which are called proxies
+
+              \item There are three major proxies: mutual funds, pension funds, and life insurance policies
+
+              \item A mutual fund is a portfolio of stocks, bonds, and other assets managed by a professional who makes decisions on behalf of clients, with a fee
+
+              \item A specialized fund is a portfolio of stocks, bonds, and other assets from specific companies with higher returns than the market average
+
+              \item An index fund is a portfolio of all the stocks in the market with the market average return like S\&P 500
+
+              \item A pension fund is a professionally managed portfolio of assets intended to provide income to retirees
+
+              \item Defined benefit plans guarantee a fixed payment to employees who have met certain entry requirements, such as working a certain number of years with the company
+
+              \item Defined contribution plans, such as a 401(K) and IRA do not guarantee a defined level of pension, but provide payouts that depend on how the stock market performs
+
+              \item Employees and employers contribute a defined amount
+
+              \item People pay insurance premiums regularly and professionals decide how to use them in financial markets
+
+              \item Other proxies include hedge funds, private-equity firms, and venture-capital funds
+
+            \end{enumerate}
+
+          \item Businesses
+
+            \begin{enumerate}
+
+              \item They are major players who engage in investment to borrow money to finance their businesses
+
+            \end{enumerate}
+
+          \item Speculators
+
+            \begin{enumerate}
+
+              \item A speculator is anyone who buys and sells financial assets purely for financial gain and plays a unique and controversial role in the financial system
+
+              \item They are neither natural buyers nor sellers, but are willing to play either role in making an effort to profit
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Functions of the Financial Market
+
+        \begin{enumerate}
+
+          \item Long-term and short-term mistiming occurs when the times when we need money do not match up with the times when we earn money
+
+          \item There are three major functions of the financial market to solve the mistiming problem:
+
+            \begin{enumerate}
+
+              \item First, the financial market acts as an intermediary between savers and borrowers
+
+                \begin{enumerate}
+
+                  \item The financial market connects borrowers to a much broader range of savers and saves their time and effort whenever people need funds
+
+                \end{enumerate}
+
+              \item Second, the financial market provides liquidity
+
+                \begin{enumerate}
+
+                  \item Liquidity is a measure of how easily a particular asset can be converted to cash without much loss of value
+
+                  \item From most liquid to least liquid assets: Cash $>$ Stocks and Bonds $>$ Cars $>$ Houses
+
+                  \item The bank just keeps a small amount of cash (required and excess reserve) and can loan out most of the deposits without losing the benefits of liquidity for individual savers
+
+                  \item Liquidity affects people's willingness to save
+
+                  \item Liquidity providers (market makers) are those who help make a market more liquid by being always ready to buy or sell an asset
+
+                \end{enumerate}
+
+              \item Third, the financial market helps savers and borrowers to diversify risk
+
+                \begin{enumerate}
+
+                  \item Diversification is the process by which risks are shared among many different assets or people in order to reduce the effects of risk on any individual
+
+                  \item Because the financial institutions have a big pool of borrowers, the risk of everyone failing to pay back at once (default risk) is very small
+
+                  \item Because the financial institutions have a big pool of savers, borrowers can get money whenever they need it
+
+                  \item The financial system diversifies the default risk by pooling different savers and different borrowers
+
+                  \item In this way, more people are willing to save, and more firms are willing to invest with lower risk
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Information Asymmetries in the Financial Market
+
+        \begin{enumerate}
+
+          \item Information asymmetry occurs when one market participant knows more than another participant
+
+          \item There are two major problems that arise in the financial market because of information asymmetry: adverse selection and moral hazard
+
+          \item Adverse Selection
+
+            \begin{enumerate}
+
+              \item Occurs when buyers and sellers fail to complete transactions, due to information asymmetries, that would have been possible otherwise
+
+              \item ex. Mortgage borrowers end up with higher interest rates on bank loans because they do not know the actual value of a house
+
+            \end{enumerate}
+
+          \item Moral Hazard
+
+            \begin{enumerate}
+
+              \item Occurs when people tend to behave in a riskier way when they do not face the full consequences of their actions (occurs after the transaction happened)
+
+              \item ex. Drivers are more likely to speed up in their driving after getting car insurance because they will pay less with a car accident because of the new coverage
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Market for Loanable Funds
+
+        \begin{enumerate}
+
+          \item The market for loanable funds simplify the financial market by assuming that there is only one financial asset, one price, and the same type of buyers and sellers
+
+          \item Demand for Loanable Funds
+
+            \begin{enumerate}
+
+              \item Funds that can be lent out and borrowed between borrowers and savers
+
+              \item The price of loanable funds is an interest rate, a percentage per dollar during a specific time period
+
+              \item Demand for loanable funds comes from investment, which is spending on physical capital by firms and government
+
+              \item Examples of investment: Car loans, mortgage loans, college loans, etc.
+
+              \item Demand of loanable funds is a curve that shows the negative relationship between interest rate and investment, which is downward-sloping because the higher interest rate and cost of borrowing, the lower the investment, and vice versa
+
+              \item There are non-interest factors that shift the demand for loanable funds (investment): expected profit, business cycle, uncertainty, and budget deficit
+
+              \item Expected Profit
+
+                \begin{enumerate}
+
+                  \item The higher expected profit, the higher the investment
+
+                \end{enumerate}
+
+              \item Business Cycle
+
+                \begin{enumerate}
+
+                  \item Investment will increase during expansion, but decrease during a recession
+
+                \end{enumerate}
+
+              \item Uncertainty
+
+                \begin{enumerate}
+
+                  \item The higher the uncertainty (for example, CoViD-19), the lower the investment
+
+                \end{enumerate}
+
+              \item Budget Deficit
+
+                \begin{enumerate}
+
+                  \item The higher the government budget deficit (public investment), the higher the investment because investment consists of public and private
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+          \item Supply for Loanable Funds
+
+            \begin{enumerate}
+
+              \item Supply of loanable funds comes from saving, which is the portion of income that is not immediately spent on consumption of goods and services
+
+              \item An interest rate is a return on saving to savers
+
+              \item Examples of Saving: Saving accounts, insurances, mutual funds, and stocks
+
+              \item Supply of loanable funds is a curve that shows the positive relationship between interest rate and saving, which is upward-sloping because, the higher the interest rate/return on saving, the more people will save.
+
+              \item There are non-interest rate factors that shift the supply of loanable funds (saving): wealth, business cycle, expected income, uncertainty, borrowing constraints, social welfare policies, and cultural expectations
+
+              \item Wealth
+
+                \begin{enumerate}
+
+                  \item Richer households ten to save more, and poorer households tend to save less
+
+                \end{enumerate}
+
+              \item Business Cycle
+
+                \begin{enumerate}
+
+                  \item Saving will increase during an expansion, but decrease during a recession
+
+                \end{enumerate}
+
+              \item Expected Income
+
+                \begin{enumerate}
+
+                  \item If people expect their income to rise, they will save more
+
+                \end{enumerate}
+
+              \item Uncertainty
+
+                \begin{enumerate}
+
+                  \item The higher the uncertainty, the higher the saving (as a precaution)
+
+                \end{enumerate}
+
+              \item Borrowing Constraints
+
+                \begin{enumerate}
+
+                  \item The higher the restraints on borrowing, such as collateral, expected income, or credits, the higher the saving to finance such a large investment
+
+                \end{enumerate}
+
+              \item Social Welfare Policies
+
+                \begin{enumerate}
+
+                  \item The higher the social welfare benefits, which will determine the benefits of people who lose their jobs, become sick or disabled, fall into poverty, or grow old, the lower the saving
+
+                \end{enumerate}
+
+              \item Cultural Expectations
+
+                \begin{enumerate}
+
+                  \item Saving rate differs among different cultural expectations on saving or among different countries because some countries tend to be hesitant towards saving than spending
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+          \item Transition from Disequilibrium to Equilibrium (Financial Market)
+
+            \begin{enumerate}
+
+              \item At the market interest rate of $R_2$, there is a shortage of loanable funds ($Q_2-Q_1$), and loan sellers will raise the interest rate to raise revenue from loans
+
+              \item At the market interest rate of $R_1$, there is a surplus of funds ($Q_2-Q_1$), and loan sellers will lower the interest rate to raise the revenue from loans
+
+              \item Interest rate will eventually go down to the equilibrium interest rate of $R_0$ with the amount of loans at $Q_0$ at the equilibrium, or at the intersection of investment and saving
+
+            \end{enumerate}
+
+          \item Change in the Equilibrium
+
+            \begin{enumerate}
+
+              \item Increase in the government deficit results in an increase in public investment, and shift the demand for loanable funds to the right, and increase the interest rate and the quantity of loans
+
+              \item Higher borrowing constraints due to a housing market crash will result in an increase in saving, decrease the interest rate, and increase the quantity of loans
+
+              \item Higher uncertainty due to CoViD-19 will lower investment but raise saving, resulting in a definite increase in the interest rate, but indefinite change (increase, decrease, or no change) in quantity of loans
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Real World Interest Rate
+
+        \begin{enumerate}
+
+          \item In the real market for loanable funds, there are different interest rates (not just one)
+
+          \item Two major reasons for different interest rates are the length of time and degree of default risk
+
+          \item The longer maturity (the time borrowers pay back a principle and interest), the higher uncertainty about potential future investment opportunities (or higher opportunity cost), the higher interest rate
+
+            \begin{enumerate}
+
+              \item Interest rate of treasury bills (less than 1 year) $<$ interest rate of treasury notes (1$-$10 years) $<$ interest rate of treasury bonds (30 years)
+
+            \end{enumerate}
+
+          \item Degree of Default Risk
+
+            \begin{enumerate}
+
+              \item A default occurs when a borrower fails to pay back a loan according to the agreed-upon terms
+
+              \item A default (credit) risk is the risk of a borrower defaulting on a loan
+
+              \item A risk-free rate is an interest rate at which one would lend if there was no default risk, which is measured by interest rate on the 3-month treasury bills
+
+              \item A risk premium (credit spread) is the difference between the risk-free rate and interest rate investors have to pay
+
+              \item Financial products with higher default risk will have a higher interest rate tha financial produts with lwer default risk
+
+                \begin{enumerate}
+
+                  \item Interest rate on mortgage loans $<$ interest rate on car loans $<$ interest rate on credit cards
+
+                \end{enumerate}
+
+              \item Borrowers with higher default risk will pay a higher interest rate than borrowers with lower default risk
+
+                \begin{enumerate}
+
+                  \item US government bonds $<$ government bonds in other countries $<$ corporate bonds $<$ individual debts
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Trade-offs between Risk and Return
+
+        \begin{enumerate}
+            
+          \item Assets with higher risk will have higher return to compensate for said risk
+
+            \begin{enumerate}
+
+              \item Order of risk: cash $<$ bonds $<$ real estate $<$ equities (stocks)
+
+            \end{enumerate}
+
+          \item There are three types of people regarding risk attitude: risk-averse, risk-neutral, and risk-loving
+
+          \item One way to manage risk is to hold assets which have low risk and low return, such as cash and fixed income bonds
+
+          \item Antoher way to manage risk but improve return is through diversification, which is buying stocks in different companies
+
+          \item A portfolio is a collection of many different assets and provides higher reutrn at a given risk than individual assets
+
+          \item There are two types of risks for financial assets: market (systemic) risk and idosyncratic risk
+
+          \item Market (Systemic) Risk
+
+            \begin{enumerate}
+
+              \item Any risk that is broadly shared by the entire economy (market) or any risk that can not be eliminated via diversification (ex. risk of unexpected inflation)
+
+            \end{enumerate}
+
+          \item Idiosyncratic Risk
+
+            \begin{enumerate}
+
+              \item Any risk that each stock has on its own, which can be eliminated via diversification (ex. index funds have no idiosyncratic risk)
+
+            \end{enumerate}
+
+          \item Risk is measured by the standard deviation of an asset's return over time, which is a measure of how widely the return differs from period to period
+
+            \begin{enumerate}
+
+              \item Government bonds have a much smaller standard deviation with lower return of 2-3\% and a range of -10\% to 10\%, as compared to stocks with a return of 7\% and range of -80\% to 120\%
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Predicting Returns
+
+        \begin{enumerate}
+
+          \item There are three basic approached to pick stocks that are most likely to increase in value: fundamental analysis, technical analysis, and efficient market hypothesis
+
+          \item Fundamental Analysis
+
+            \begin{enumerate}
+
+              \item Calculates how much a company is worth now by predicting how much profit a company will make in the future
+
+              \item Does extensive research on an individual company about its financial statements, how it is run, the industry a company is in, and who its competitors are
+
+              \item The correct price of shares in the company is estimated by measuring a net present value of future streams of profit
+
+              \item The net present value (NPV) is the current value of a stream of expected future cash flows
+
+            \end{enumerate}
+
+          \item Technical Analysis
+
+            \begin{enumerate}
+
+              \item Ignores any attempt to predict future profits, calculate a net present value, or learn about the stock in question, but, instead, analyzes the past movements of a stock's price to predict future movements through the help of computer software
+
+            \end{enumerate}
+
+          \item Efficient Market Hypothesis (EMH)
+
+            \begin{enumerate}
+
+              \item States that the market prices of assets always represent their true value because they always incorporate all available information
+
+              \item Implies that all stocks are already correctly priced and there is no additional information we can use to predict which stocks will gain value
+
+              \item This is the reason why index funds, such as S\&P 500, consistently outperform actively managed funds
+
+              \item In practice, the efficient market hypothesis does not hold because the same financial asset can be traded at different prices in different markets
+
+              \item Arbitrage is the process of taking advantage of market inefficiencies to earn profit
+
+              \item A bubble is a phenomenon in which asset prices rise far above historiclly justified levels and then crash (ex. Stock Market Boom (1920s), Internet Bubble (late 1990s), and Housing Bubble (2007-2008))
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item National Accounting Approach
+
+        \begin{enumerate}
+
+          \item Suppose that there is no government and no international trade (closed economy)
+
+            \begin{enumerate}
+
+              \item Individual households use their income for consumption and save left-overs
+
+              \item Saving consists of only private saving, which is saving by individual households and firms
+
+              \item Income = Consumption + Private Saving
+
+              \item People earn income from spending on consumer goods or spending on investment goods
+
+              \item Income = Consumption + Investment
+
+              \item Income used should be equal to income earned
+
+              \item Private Saving ($S$) = Investment ($I$)
+
+              \item This is called the saving investment identity, which shows that private saving is always equal to investment in an economy with no government and no trade
+
+            \end{enumerate}
+
+          \item Suppose that there is a government, but no international trade (closed economy)
+
+            \begin{enumerate}
+
+              \item Individual households use their income for consumption, paying taxes, and saving
+
+              \item Income = Consumption + Private Saving + Tax
+
+              \item People earn income from spending on consumer goods, spending on investment goods, or from government spending (purchases, transfer payments, interest payments)
+
+              \item Income = Consumption + Investment + Government Spending
+
+              \item Private Saving + Tax = Investment + Government Spending
+
+              \item Public Saving = Tax - Government Spending
+
+              \item National Saving = Private Saving + Public Saving
+
+              \item National Saving $<$ Private Saving for a budget deficit (negative public saving)
+
+              \item National Saving $>$ Private Saving for a budget surplus (positive public saving)
+
+              \item National Saving $=$ Private Saving for a balanced budget (zero public saving)
+
+            \end{enumerate}
+
+          \item Suppose that there is a government and international trade (open economy)
+
+            \begin{enumerate}
+
+              \item Capital outflow is domestic saving that is invested in another country
+
+              \item Capital inflow is foreign saving that finances domestic investment
+
+              \item Net capital flow = Capital inflow - Capital outflow
+
+              \item There is a net capital inflow if: investment $>$ national saving
+
+              \item There is a net capital outflow if: investment $<$ national saving
+
+              \item There is no net capital flow if: investment $=$ national saving
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Money and its Functions
+
+        \begin{enumerate}
+
+          \item Money is the set of all assets that are regularly used to directly purchase goods and services
+
+          \item It has three main functions: medium of exchange, store of value, and unit of account
+
+          \item Medium of Exchange
+
+            \begin{enumerate}
+
+              \item Money is used to exchange goods or services in trade
+
+            \end{enumerate}
+
+          \item Store of Value
+
+            \begin{enumerate}
+
+              \item Money can store a value because it represents a certain amount of purchasing power that money retains over time
+
+              \item The value of money declines with inflation, but increases with deflation (assuming money is stored at home)
+
+              \item The value of money declines when real interest rate ($r$) $<0$ or nominal interest rate ($R$) $<$ inflation rate ($\pi$). The value of many increases when $r>0$ or $R>\pi$, or with deflation if money is stored in a bank, because $r=R-\pi$ (approximate method)
+
+            \end{enumerate}
+
+          \item Unit of Account
+
+            \begin{enumerate}
+
+              \item Money provides a unit of account in trade
+
+              \item Barter economy has different units in trade, but money provides a standard unit of comparison for making informed decisions
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Characteristics of Good Money
+
+        \begin{enumerate}
+
+          \item Acceptable to most people
+
+          \item Standardized in quality
+
+          \item Durable (non-perishable)
+
+          \item Easier to carry
+
+          \item Divisible
+
+          \item Stability of value over time
+
+          \item Convenience
+
+        \end{enumerate}
+
+      \item Types of Money
+
+        \begin{enumerate}
+
+          \item Commodity Money
+
+            \begin{enumerate}
+
+              \item Money that not only has its intrinsic value, but also its value as a medium of exchange in a barter economy (ex. agricultural products)
+
+              \item Requires a coincidence of wants between buyers and sellers in trade, which occurs when what buyers want to buy is equal to what sellers want to sell
+
+              \item Inefficient because it takes a lot of time, effort, and cost to find the right person to trade with
+
+            \end{enumerate}
+
+          \item Commodity-Backed Money
+
+            \begin{enumerate}
+
+              \item Any form of money that can be legally exchanged into a fixed amount of an underlying commodity, generally golds (ex. Civil War greenbacks)
+
+              \item Has a resource cost because gold is used for other purposes, such as medicine, dentistry, and electronics
+
+              \item Reassures people of the stability of the currency through the ability to exchange it for the commodity it is backed by
+
+            \end{enumerate}
+
+          \item Fiat Money
+
+            \begin{enumerate}
+
+              \item Money that has only a value as a medium of exchange, but no intrinsic value, and is created by rule without any commodity to back it up. This type of money is backed by the full faith and credit of a government (ex. dollars and the US government)
+
+              \item Commodity-backed money and fiat money are more efficient than commodity money as a medium of exchange, store of value, and unit of account because they create standardized units and last longer
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Measures of Money
+
+        \begin{enumerate}
+
+          \item Monetary base is the sum of currency in circulation and reserves held by banks at the Federal Reserve
+
+          \item M1 is the sum of currency held by the public (cash) and checking accounts (demand deposits) and traveler's checks (plus other checkable accounts)
+
+          \item Before 1980, US law prohibited banks from paying interest on deposits, and there were only non-interest bearing accounts (checking accounts)
+
+          \item Non-interest bearing accounts have a role as a medium of exchange and a unit of account, but not as a store of value
+
+          \item M2 is the sum of M1 and other interest-bearing accounts, such as savings accounts, certificates of deposit (CDs), and mutual funds
+
+          \item M2 plays the role of a medium of exchange, unit of account, and store of value
+
+          \item M2 = M1 + savings deposits + money market mutual funds + small-denomination time deposits $\Rightarrow$ M2 = currencies + demand deposits + traveler's checks + other checkable deposits + savings deposits + money market mutual funds + small-denomination time deposits
+
+        \end{enumerate}
+
+      \item Creation of Money
+
+        \begin{enumerate}
+
+          \item Balance Sheet of a Bank
+
+            \begin{enumerate}
+
+              \item Basic accounting equation: Assets = liabilities + stockholder's equity
+
+              \item A balance sheet (BS) is a financial statement where companies periodically report the balances of their assets, liabilities, and owner's equity
+
+              \item Assets are on the left and liabilities and owner's equity are on the right
+
+              \item Asset if anything of value owner by a bank
+
+                \begin{enumerate}
+
+                  \item Reserve is a portion of deposit that a bank keeps to return to depositors
+
+                  \item Banks keep reserves, either as cash or as deposits at the Federal Reserve
+
+                  \item Required reserve is a minimum reserve that a bank is legally required to keep
+
+                  \item Required reserve ratio (RR) is the minimum fraction of deposit that banks are legally required to keep as a reserve (normally 10\%)
+
+                  \item Excess reserve is a reserve that a bank keeps on top of the minimum reserve
+
+                \end{enumerate}
+
+              \item Loan is a deposit that a bank lends out to borrowers, and is the largest asset of a bank
+
+                \begin{enumerate}
+
+                  \item Consumer loans are loans to households (ex. car loans, mortgage loans, and college loans)
+
+                  \item Commercial loans are loans to businesses
+
+                    \begin{itemize}
+
+                      \item Securities — Government notes, bills, and bonds
+
+                      \item Buildings and equipment
+
+                      \item Other assets
+
+                    \end{itemize}
+
+                \end{enumerate}
+
+              \item Liability is anything of value owed by a bank
+
+                \begin{enumerate}
+
+                  \item Deposit is an amount of money that a bank owes to depositors, which is the largest liability of a bank
+
+                  \item Short-term borrowing
+
+                  \item Long-term borrowing
+
+                  \item Other liabilities
+
+                \end{enumerate}
+
+              \item Stockholder (owner's) equity is the total value of assets minus liabilities, which is called the net worth or capital
+
+              \item Change in assets = Change in liabilities or equity
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Money Creation Process
+
+        \begin{enumerate}
+
+          \item T-account is a simplified version of a balance sheet that shows how each transaction changes a balance sheet of a bank
+
+            \begin{enumerate}
+
+              \item Value of assets = Value of liabilities and equity
+
+              \item Change in value of assets = Change in value of liabilities or equity
+
+            \end{enumerate}
+
+          \item T-account uses the following assumptions:
+
+            \begin{enumerate}
+
+              \item People deposit 100\% of their cash to a bank
+
+              \item There is no excess reserve (bank loans out the rest of deposits, other than the required reserve)
+
+            \end{enumerate}
+
+          \item Simple Deposit Multiplier (Money Multiplier)
+
+            \begin{enumerate}
+
+              \item If a first depositor deposits money into Chase, deposit (M1) increase by \$1,000
+
+              \item When a second borrower deposits loans from Chase into the Bank of America, deposit (M1) increase by \$900
+
+              \item When a third borrower deposits loans from Bank of America into Wells Fargo, deposit (M1) increases by \$810
+
+              \item Total increase in money supply:
+
+                \begin{enumerate}
+                    
+                  \item $=\$1000 + \$900 + \$810 + \dots$
+
+                  \item $=\$1000 \left( 1 + (1-.1) + (1-.1)^2 + \dots  \right)$
+
+                  \item Geometric series: $1+a+a^2+\dots=\frac{1}{1-a}$
+
+                \end{enumerate}
+
+              \item Total increase in money supply ($\Delta MS$)=$\frac{\Delta M}{RR}$, where $\Delta M$ is the initial increase in money supply, and $RR$ is the required reserve ratio
+
+              \item Simple deposit multiplier = $\frac{1}{RR}$
+
+                \begin{enumerate}
+
+                  \item If $RR=0$, money supply increase to infinity
+
+                  \item If $RR=1$, money supply increase by the initial change in money supply (full reserve banking)
+
+                  \item If $0<RR<1$, money supply increases more than intial increase (fractional reserve banking)
+
+                  \item If depositors do not deposit the whole amount of currency and keep some in their pockets, then there is an excess reserve, and the money multiplier will be smaller
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Money Demand
+
+        \begin{enumerate}
+
+          \item Liquidity is the easiness of turning assets to cash
+
+          \item Cash and checking accounts (demand deposits, M1) are the most liquid assets, which meet our daily needs and result in a preference for liquidity
+
+          \item According to the liquidity-preference model, money demand is a curve that shows the negative relationship between quantity of money demanded and interest rate, and is downward-sloping
+
+          \item The interest rate is an opportunity cost of holding money and the price of money, because, by holding money (M1), you are losing an opportunity of earning an interest rate from holding other assets, such as non-M1 M2 (saving, CD, and mutual funds)
+
+          \item The interest rate in the money market is the nominal (stated) interest rate and the quantity of money supplied is the money base (currency and reserve) by the Fed
+
+          \item The higher the interest rate, the lower the quantity of money demanded
+
+          \item There are also non-interest rate factors that shift money demand: GDP, price level, and technology
+
+          \item GDP
+
+            \begin{enumerate}
+
+              \item Higher GDP will cause people to demand more money to buy more goods or services
+
+              \item Higher price level (inflation) will cause people to demand more money to buy the same amount of goods or services
+
+              \item Use of credit cards and ATMs will reduce money demand
+
+            \end{enumerate}
+
+        \end{enumerate}
+        
+      \item Money Supply
+
+        \begin{enumerate}
+
+          \item The money supply curve shows the relationship between quantity of money supplied and interest rate
+
+          \item It is vertical and perfectly inelastic because there is no change in the quantity of money supplied, regardless of change in interest rate
+
+            \begin{enumerate}
+
+              \item Quantity of money supplied is influenced only by the Federal Reserve's Monetary Policy, based on the economy, not by interest rate
+
+            \end{enumerate}
+
+          \item There are non-interest rate facts that shift money supply: Federal Reserve monetary policy
+
+            \begin{enumerate}
+
+              \item Expansionary monetary policy is any action by the Federal Reserve (the Fed) to increase money supply through decrease in the required reserve ratio ($RR$), decrease in discount rate, or open market purchases of government securities, shifting money supply right
+
+              \item Contractionary monetary policy is any action by the Fed to reduce money supply through an increase in required reserve ratio, increase in discount rate, or open market sales of government securities, shifting money supply left
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Change in Equilibrium
+
+        \begin{enumerate}
+
+          \item Equilibrium in the Money Market will change if the market conditions (non-interest rate factors) change
+
+          \item Suppose that there is inflation, adn the Federal Reserve implements a contractionary monetary policy
+
+            \begin{enumerate}
+
+              \item Inflation will shift money demand to the right
+
+              \item Contractionary money policy will shift money supply to the left
+
+              \item As a result, quantity of money will decline, and interest rate will rise
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Establishment of the Federal Reserve
+
+        \begin{enumerate}
+
+          \item President Woodrow Wilson and Congress passed the Federal Reserve Act in 1913, and established the Federal Reserve System to secure the stability of the financial system
+
+          \item US has a fractional banking system, where banks keep some deposits as a required reserve, with some kept as excess reserve, while the rest is loaned out to borrower, which could generate bank runs or panics
+
+            \begin{enumerate}
+
+              \item Bank runs occur when depositors simultaneously withdraw their deposits from a bank
+
+              \item Bank panics occur when many banks simultaneously experience bank runs
+
+            \end{enumerate}
+
+          \item The Federal Reserve protects banks from bank runs and bank panics by providing discount loans to banks with a discount rate
+
+            \begin{enumerate}
+                
+              \item Discount loans are loans the Fed gives to banks
+
+              \item Discount rate is an interest rate given by the Fed to banks on discount loans
+
+            \end{enumerate}
+
+          \item To further insure deposits, Congress established the Federal Deposit Insurance Corporation (FDIC) in 1934, which insures deposits of up to \$250,000 per deposit
+
+        \end{enumerate}
+
+      \item Functions of the Federal Reserve
+
+        \begin{enumerate}
+
+          \item The Federal Reserve has two major functions, just like any other central banks:
+
+            \begin{enumerate}
+
+              \item First, it implements monetary policy, mainly through management of money supply to meet macroeconomic goals
+
+              \item Second, it acts as a lender of last resort
+
+                \begin{enumerate}
+
+                  \item The Fed lends out discount loans to banks with a discount rate in case of bank runs or bank panics
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Structure of the Federal Reserve
+
+        \begin{enumerate}
+
+          \item There are three main entities in the Federal Reserve System: board of governors, federal reserve banks, and federal open market committee
+
+          \item Board of Governors
+
+            \begin{enumerate}
+
+              \item The president nominates seven governors, which are confirmed by the US Senate
+
+              \item Each member is appointed for a 14-year term and is non-renewable
+
+              \item The president appoints one of the governors as the Chair of the Board for a four-year term with the potential extension of the term
+
+            \end{enumerate}
+
+          \item Federal Reserve Banks
+
+            \begin{enumerate}
+
+              \item There are 12 districts of Federal Reserve Banks
+
+              \item These banks are considered to be members of the Fed and are subject to its regulations
+
+            \end{enumerate}
+
+          \item Federal Open Market Committee (FOMC)
+
+            \begin{enumerate}
+
+              \item There are 12 voting members: 7 members of the Board of Governors, the president of the Federal Reserve Bank of New York, and 4 presidents of the remaining 11 reserve banks
+
+              \item The Chair of the Board of Governors is the Chair of the FOMC
+
+              \item President of the Federal Reserve Bank of New York is the Vice Chair of the FOMC
+
+              \item Its main role is to implement monetary policy by controlling money supply and interest rate
+
+              \item Providing the security for serving long termshelps the Fed to be independent from politics
+                
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Monetary Policy Goals
+
+        \begin{enumerate}
+
+          \item Monetary Policy is a policy implemented by the Federal Reserve to mitigate business cycles by changing the interest rate through changes in the money supply
+
+          \item There are dual mandates of monetary policy in the short run: price stability and full employment
+
+          \item The Fed tries to keep inflation between 2\% and 4\% to stabilize the price level, as inflation reduces the purchasing power and value of money, but deflation raises the real interest rate
+
+          \item The Fed tries to keep employment at full employment (potential GDP) or keep unemployment at the natural rate of unemployment of around 4-5\%
+
+          \item There is also an unconventional and long-term goal of the Fed's monetary policy: Stable financial system, which promotes the efficient flow of funds from savers to borrowers
+
+            \begin{enumerate}
+
+              \item Great Depression (1929$-$1933) and Great Recession (2007$-$2009): Discount loans to banks
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Monetary Policy Tools
+
+        \begin{enumerate}
+
+          \item There are three major monetary policy tools to change money supply used by the Fed: Discount rate, Required Reserve Ratio ($RR$), and Open Market Operations
+
+          \item Discount Rate
+
+            \begin{enumerate}
+
+              \item The discount window is a lending facility that allows any bank to borrow reserves from the Fed to avoid bank runs or panics
+
+              \item The discount rate is an interest rate on a discount loan that a bank borrows from the Fed
+
+              \item The higher discount rate will lower discount loans, deposits, and money supply
+
+              \item It is rarely used as a policy tool because it is higher than other interest rates
+
+            \end{enumerate}
+
+          \item Required Reserve Ratio ($RR$)
+
+            \begin{enumerate}
+
+              \item Reserve requirement is the regulation that sets the minimum fraction of deposit banks must hold in reserve, which is called a reserve ratio
+
+              \item Full reserve banking occurs when $RR=1$ (100\%), but fractional reserve banking occurs when $0<RR<1$
+
+              \item Higher $RR$ will lower lowans, deposits, and money supply
+
+              \item It is rarely used for monetary policy because change in $RR$ makes it harder for banks to manage their money, and it requires changes to laws, which takes a lot of time
+
+            \end{enumerate}
+
+          \item Open Market Operations
+
+            \begin{enumerate}
+
+              \item Open market operations are sales or purchases of government securities by the Fed to or from banks on the open (public) market
+
+              \item Government (treasury) securities, such as bills (less than a year), notes (1$-$10 years), and bonds (30 years) pay an interest each period (coupon rate) and interest and principal (Face Value) at maturity
+
+              \item The purchases/sales of bonds from banks will increase/decrease deposits, reserves, and money supply
+
+              \item Open Market Operations are the most commonly-used monetary policy tool among the three because it has two major advantages:
+
+                \begin{enumerate}
+
+                  \item First, it is easily reversible (flexible) because selling and buying bonds take place on a daily basis, whereas it takes more time to change the discount rate and required reserve ratio due to administrative delay
+
+                  \item Second, it affects the federal funds rate, which is the interest rate that banks charge when one bank makes a very short-term (usually overnight) loan of reserves to another bank and is a target in open-market operations
+
+                \end{enumerate}
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+      \item Monetary Policy Targets
+
+        \begin{enumerate}
+
+          \item The target for monetary policy by the Fed is not directly on money supply, but rather the federal funds rate
+
+          \item The Fed sets the target federal funds rate and meets that target by controlling money supply by changing monetary policy tools such as required reserve ratio, discount rate, and, most commonly, open market operations
+
+          \item Sales of government bonds will reduce money supply, push up the federal funds rate, raise other long term interest rates (such as mortgage rates), lower consumption, investment, aggregate demand, GDP, and price level
+
+          \item Purchases of government bonds will raise money supply, push down the federal funds rate, lower other long-term interest rates, and increase consumption, investment, aggregate demand, GDP, and price level
+
+        \end{enumerate}
+
+      \item Counter-cyclical vs. Pro-cyclical Monetary Policy
+
+        \begin{enumerate}
+
+          \item Counter-cyclical monetary policy is a successful and timely monetary policy that mitigates business cycles or brings GDP back to the potential
+
+          \item Pro-cyclical monetary policy is an unsuccessful and untimely monetary policy that worsens business cycles due to lag: information, formulation, and implementation lags
+
+            \begin{enumerate}
+
+              \item Information lag occurs when it takes time for NBER to figure out what state the economy is in
+
+              \item Formulation lag occurs when it takes time for the Fed to formulate a monetary policy
+
+              \item Implementation lag occurs when it takes time for monetary policy to take effect on the economy, through change in the federal funds rate, long-term interest rates, consumption, investment, AD, GDP, and price level
+
+            \end{enumerate}
+
+          \item Monetary policy has several advantages over fiscal policy
+
+            \begin{enumerate}
+
+              \item It has shorter formulation lags than fiscal policy because the Fed does not need to go through the political process like fiscal policy
+
+              \item It also quickly decides the right policy at the right time, through every six weeks of FOMC meeting
+
+            \end{enumerate}
+
+        \end{enumerate}
+
+    \end{enumerate}
+
+\end{document}
+
